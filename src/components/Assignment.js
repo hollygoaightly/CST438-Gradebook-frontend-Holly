@@ -15,7 +15,6 @@ import {SERVER_URL} from '../constants.js'
 class Assignment extends Component {
     constructor(props) {
       super(props);
-      console.log("Gradebook.cnstr "+ JSON.stringify(props.location.assignment));
       this.state = {selected: 0, rows: []};
     };
  

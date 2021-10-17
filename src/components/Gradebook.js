@@ -7,7 +7,6 @@ import {DataGrid} from '@material-ui/data-grid';
 import Button from '@material-ui/core/Button';
 import Cookies from 'js-cookie';
 import {SERVER_URL} from '../constants.js'
-import Assignment from '../components/Assignment';
 
 // NOTE:  for OAuth security, http request must have
 //   credentials: 'include' 
