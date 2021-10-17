@@ -36,7 +36,7 @@ class NewAssignment extends Component {
       console.log(JSON.stringify({courseId:this.state.courseId, assignmentName:this.state.assignmentName, dueDate:this.state.dueDate}));
       const token = Cookies.get('XSRF-TOKEN');
       
-      fetch(`${SERVER_URL}/gradebook` , 
+      fetch(`${SERVER_URL}gradebook` , 
           {  
             method: 'POST', 
             headers: { 'Content-Type': 'application/json',
