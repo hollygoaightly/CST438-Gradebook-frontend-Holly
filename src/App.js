@@ -21,7 +21,7 @@ function App() {
       <BrowserRouter>
        <Switch>
         <Route exact path='/' component={Login} />
-        <Route exact path='/' component={Assignment} />
+        <Route exact path='/assignment' component={Assignment} />
         <Route path='/newassignment' component={NewAssignment} />
         <Route path='/gradebook' component={Gradebook} />
        </Switch>
